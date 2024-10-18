@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "mitraya-namaha-app",
+    "slug": "mitraya-namaha-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/suryanamaskar.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "namo.surya"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "22a35b84-2e28-4a0f-9057-fbc841788575"
+      }
+    }
+  }
+}
